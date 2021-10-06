@@ -14,7 +14,6 @@ app.get("/", (req, res) => {
   res.render("index", { title: "Index" });
 });
 
-const port = process.env.PORT || "3000";
-app.listen(port, () => {
-  console.log(`PS Project Running on port ${port}!`);
+app.listen(3000, () => {
+  console.log(`PS Project Running on port 3000!`);
 });
